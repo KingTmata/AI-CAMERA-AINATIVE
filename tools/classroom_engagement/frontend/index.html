@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lớp học sôi nổi - AI Engagement Monitor</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-left">
+      <span class="logo-icon">📊</span>
+      <div>
+        <h1>Hệ Thống Chấm Điểm Sôi Nổi Lớp Học</h1>
+        <div class="header-subtitle">Xử lý nhãn hành vi & Đếm chỉ số tham gia thời gian thực</div>
+      </div>
+    </div>
+    <div class="header-right">
+      <span id="mode-badge" class="mode-tag">Đang kiểm tra chế độ...</span>
+      <span id="conn-badge" class="badge-online">
+        <span class="dot"></span> <span id="conn-text">Đang kết nối...</span>
+      </span>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- Cột trái: Luồng video AI Realtime -->
+    <section class="video-container">
+      <div class="video-card">
+        <div class="video-header">
+          <span class="video-tag" id="source-tag">VIDEO FEED & OVERLAY</span>
+          <span class="fps-tag">Live Stream</span>
+        </div>
+        <div class="video-wrapper">
+          <img id="video" src="/video" alt="Luồng video AI giám sát lớp học">
+        </div>
+      </div>
+
+      <!-- Thống kê nhanh tức thời trong frame hiện tại -->
+      <div class="live-strip">
+        <div class="live-stat">
+          <span class="live-icon">✋</span>
+          <div>
+            <div class="live-val"><b id="currently_raising">0</b> bạn</div>
+            <div class="live-label">Đang giơ tay lúc này</div>
+          </div>
+        </div>
+        <div class="live-stat">
+          <span class="live-icon">🙆</span>
+          <div>
+            <div class="live-val"><b id="currently_stretching">0</b> bạn</div>
+            <div class="live-label">Vươn vai (Đã lọc)</div>
+          </div>
+        </div>
+        <div class="live-stat">
+          <span class="live-icon">🎓</span>
+          <div>
+            <div class="live-val"><b id="currently_at_board">0</b> bạn</div>
+            <div class="live-label">Đang đứng ở bảng</div>
+          </div>
+        </div>
+        <div class="live-stat">
+          <span class="live-icon">👥</span>
+          <div>
+            <div class="live-val"><b id="people">0</b> học sinh</div>
+            <div class="live-label">Số người phát hiện</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cột phải: Bảng điều khiển & Chỉ số sôi nổi -->
+    <aside class="panel">
+      <!-- Thẻ trạng thái mức độ sôi nổi -->
+      <div class="card level-card">
+        <div class="label-tiny">ĐÁNH GIÁ MỨC ĐỘ SÔI NỔI (5 PHÚT)</div>
+        <div id="level" class="level low">ĐANG TẢI...</div>
+      </div>
+
+      <!-- Thẻ các chỉ số chi tiết -->
+      <div class="card metrics-card">
+        <div class="card-section-title">CHỈ SỐ TÍCH LŨY (5 PHÚT GẦN NHẤT)</div>
+
+        <div class="metric-row">
+          <div class="metric-info">
+            <span class="icon">✋</span>
+            <span>Tổng lượt giơ tay:</span>
+          </div>
+          <div class="metric-val"><b id="raises">0</b> <span class="unit">lần (+1đ)</span></div>
+        </div>
+
+        <div class="metric-row">
+          <div class="metric-info">
+            <span class="icon">🎓</span>
+            <span>Tổng lượt lên bảng:</span>
+          </div>
+          <div class="metric-val"><b id="boards">0</b> <span class="unit">lần (+3đ)</span></div>
+        </div>
+
+        <div class="metric-row highlight-combo">
+          <div class="metric-info">
+            <span class="icon">⚡</span>
+            <span>Combo (Giơ tay &rarr; Lên bảng):</span>
+          </div>
+          <div class="metric-val"><b id="combos">0</b> <span class="unit">lần (+2đ)</span></div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="metric-row score-row">
+          <div class="metric-info">
+            <span class="icon">⭐</span>
+            <span>Tổng điểm sôi nổi:</span>
+          </div>
+          <div class="metric-val big"><b id="score">0</b> <span class="unit">điểm</span></div>
+        </div>
+
+        <div class="metric-row rate-row">
+          <div class="metric-info">
+            <span class="icon">👥</span>
+            <span>Tỉ lệ tham gia:</span>
+          </div>
+          <div class="metric-val">
+            <b id="rate">0</b>% (<span id="active">0</span> bạn có tương tác)
+          </div>
+        </div>
+        <div class="progress-bar-bg">
+          <div id="rate-bar" class="progress-bar-fill" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <!-- Nhật ký sự kiện trực tiếp -->
+      <div class="card log-card">
+        <div class="log-title">
+          <span>🔔 Nhật ký sự kiện vừa diễn ra</span>
+          <span class="log-badge" id="event-count">0 sự kiện</span>
+        </div>
+        <div id="event-list" class="event-list">
+          <div class="log-empty">Chưa có sự kiện nào ghi nhận...</div>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
