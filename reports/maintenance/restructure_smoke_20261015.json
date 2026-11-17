@@ -1,9 +1,9 @@
 {
   "metadata": {
     "config": {
-      "source": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\restructure_smoke_input.mp4",
+      "source": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\restructure_smoke_input.mp4",
       "mode": "full",
-      "weights": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\weights\\seed_repeats_20261014\\E3_LIGHT_CONTRAST_seed123_E2_best.pt",
+      "weights": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\weights\\seed_repeats_20261014\\E3_LIGHT_CONTRAST_seed123_E2_best.pt",
       "device": "cpu",
       "imgsz": 1280,
       "confidence": 0.05,
@@ -29,7 +29,7 @@
       "lap": "0.5.12"
     },
     "source": {
-      "path": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\restructure_smoke_input.mp4",
+      "path": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\restructure_smoke_input.mp4",
       "fps_fraction": "30",
       "fps": 30.0,
       "width": 1914,
@@ -534,7 +534,7 @@
       }
     ],
     "format": {
-      "filename": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\runs\\restructure_smoke\\20261015_235133_cbe6b6dec1\\annotated.mp4",
+      "filename": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\runs\\restructure_smoke\\20261015_235133_cbe6b6dec1\\annotated.mp4",
       "nb_streams": 2,
       "nb_programs": 0,
       "nb_stream_groups": 0,

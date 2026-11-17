@@ -47,4 +47,4 @@ Mười tiêu chí được giữ trong báo cáo trước. Runtime R01/R04 đã
 
 [Kết quả trước và10tiêu chí](../webcam_sizes_20261010/results.md)
 
-![Kaggle xác nhận 2/11 model trước khi dừng GPU](C:/Users/aawm8/Downloads/BTL-AI-Camera-cd8/reports/webcam_all11_20261011/kaggle_validation_summary.png)
+![Kaggle xác nhận 2/11 model trước khi dừng GPU](C:/Users/aawm8/Downloads/AI-CAMERA-AINATIVE/reports/webcam_all11_20261011/kaggle_validation_summary.png)

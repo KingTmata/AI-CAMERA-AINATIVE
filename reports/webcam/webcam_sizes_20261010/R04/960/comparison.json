@@ -4,7 +4,7 @@
   "checkpoint_sha256": "087eaca77696eb323464f4294fce43b877de430e0bb26efb55e18322a3c02758",
   "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\reports\\webcam_sizes_20261010\\R04\\960\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\reports\\webcam_sizes_20261010\\R04\\960\\validation_data.yaml",
     "split": "val",
     "imgsz": 960,
     "batch": 8,

@@ -2,7 +2,7 @@
 
 # Kế hoạch chi tiết tuần 4–5–6: Detection, Recognition và ứng dụng Webcam
 
-**File dự kiến:** `C:\Users\aawm8\Downloads\BTL-AI-Camera-cd8\WEEK4_5_6_PLAN.md`
+**File dự kiến:** `C:\Users\aawm8\Downloads\AI-CAMERA-AINATIVE\WEEK4_5_6_PLAN.md`
 
 File đặt ở gốc dự án, ngang hàng với tài liệu tuần 1–2. Nội dung dưới đây là bản kế hoạch mở rộng, có phần nối công việc từ tuần 2–3 và phân công tham khảo cho **5 thành viên, tính cả bạn**.
 

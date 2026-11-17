@@ -1,9 +1,9 @@
 [
   {
     "configuration": "detection",
-    "directory": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\runs\\video_tracking_benchmark_20261015\\detection\\20261015_231428_0b00aa2ebf",
+    "directory": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\runs\\video_tracking_benchmark_20261015\\detection\\20261015_231428_0b00aa2ebf",
     "source": {
-      "path": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\stock-footage-mature-teacher-monitoring-students-as-they-write-an-exam-in-a-classroom-at-secondary-school-female.webm",
+      "path": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\stock-footage-mature-teacher-monitoring-students-as-they-write-an-exam-in-a-classroom-at-secondary-school-female.webm",
       "fps_fraction": "25",
       "fps": 25.0,
       "width": 898,
@@ -16,9 +16,9 @@
     },
     "weights_sha256": "5487978ad53e7c5fc9d5cbe0c043edab8497f4e83dc248a7c0f785775654e816",
     "config": {
-      "source": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\stock-footage-mature-teacher-monitoring-students-as-they-write-an-exam-in-a-classroom-at-secondary-school-female.webm",
+      "source": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\stock-footage-mature-teacher-monitoring-students-as-they-write-an-exam-in-a-classroom-at-secondary-school-female.webm",
       "mode": "full",
-      "weights": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\weights\\seed_repeats_20261014\\E3_LIGHT_CONTRAST_seed123_E2_best.pt",
+      "weights": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\weights\\seed_repeats_20261014\\E3_LIGHT_CONTRAST_seed123_E2_best.pt",
       "device": "cpu",
       "imgsz": 1280,
       "confidence": 0.05,
@@ -622,9 +622,9 @@
   },
   {
     "configuration": "tracking",
-    "directory": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\runs\\video_tracking_benchmark_20261015\\tracking\\20261015_231541_b4321548c1",
+    "directory": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\runs\\video_tracking_benchmark_20261015\\tracking\\20261015_231541_b4321548c1",
     "source": {
-      "path": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\stock-footage-mature-teacher-monitoring-students-as-they-write-an-exam-in-a-classroom-at-secondary-school-female.webm",
+      "path": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\stock-footage-mature-teacher-monitoring-students-as-they-write-an-exam-in-a-classroom-at-secondary-school-female.webm",
       "fps_fraction": "25",
       "fps": 25.0,
       "width": 898,
@@ -637,9 +637,9 @@
     },
     "weights_sha256": "5487978ad53e7c5fc9d5cbe0c043edab8497f4e83dc248a7c0f785775654e816",
     "config": {
-      "source": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\stock-footage-mature-teacher-monitoring-students-as-they-write-an-exam-in-a-classroom-at-secondary-school-female.webm",
+      "source": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\stock-footage-mature-teacher-monitoring-students-as-they-write-an-exam-in-a-classroom-at-secondary-school-female.webm",
       "mode": "full",
-      "weights": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\weights\\seed_repeats_20261014\\E3_LIGHT_CONTRAST_seed123_E2_best.pt",
+      "weights": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\weights\\seed_repeats_20261014\\E3_LIGHT_CONTRAST_seed123_E2_best.pt",
       "device": "cpu",
       "imgsz": 1280,
       "confidence": 0.05,
@@ -1299,9 +1299,9 @@
   },
   {
     "configuration": "tracking_smooth_gap",
-    "directory": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\runs\\video_tracking_benchmark_20261015\\tracking_smooth_gap\\20261015_231648_7c35de1a7a",
+    "directory": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\runs\\video_tracking_benchmark_20261015\\tracking_smooth_gap\\20261015_231648_7c35de1a7a",
     "source": {
-      "path": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\stock-footage-mature-teacher-monitoring-students-as-they-write-an-exam-in-a-classroom-at-secondary-school-female.webm",
+      "path": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\stock-footage-mature-teacher-monitoring-students-as-they-write-an-exam-in-a-classroom-at-secondary-school-female.webm",
       "fps_fraction": "25",
       "fps": 25.0,
       "width": 898,
@@ -1314,9 +1314,9 @@
     },
     "weights_sha256": "5487978ad53e7c5fc9d5cbe0c043edab8497f4e83dc248a7c0f785775654e816",
     "config": {
-      "source": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\stock-footage-mature-teacher-monitoring-students-as-they-write-an-exam-in-a-classroom-at-secondary-school-female.webm",
+      "source": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\stock-footage-mature-teacher-monitoring-students-as-they-write-an-exam-in-a-classroom-at-secondary-school-female.webm",
       "mode": "full",
-      "weights": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\weights\\seed_repeats_20261014\\E3_LIGHT_CONTRAST_seed123_E2_best.pt",
+      "weights": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\weights\\seed_repeats_20261014\\E3_LIGHT_CONTRAST_seed123_E2_best.pt",
       "device": "cpu",
       "imgsz": 1280,
       "confidence": 0.05,

@@ -37,7 +37,7 @@ Người dùng thấy checkpoint này nhận diện lớp học tốt hơn một
 | Kaggle | Đã mở `https://www.kaggle.com/code`, tài khoản đăng nhập A W M / `awm3636`, thấy các notebook Project8 lịch sử |
 | GPU/quota Kaggle | Chưa xác nhận GPU thực được cấp, VRAM, thời gian session, quota còn lại, phiên bản runtime; không kích hoạt GPU để lập plan |
 | Ultralytics local | Đọc source 8.4.165: detection fitness=mAP50–95; EarlyStopping strict `>` với ngoại lệ best_fitness=0. Phải kiểm lại source runtime Kaggle |
-| Source phục vụ chuẩn bị sau này | Worktree `C:/Users/aawm8/.codex/worktrees/20a1/BTL-AI-Camera-cd8`; tài liệu này ở checkout hiện tại. Không sửa source của chat CPU/GPU đang làm song song |
+| Source phục vụ chuẩn bị sau này | Worktree `C:/Users/aawm8/.codex/worktrees/20a1/AI-CAMERA-AINATIVE`; tài liệu này ở checkout hiện tại. Không sửa source của chat CPU/GPU đang làm song song |
 
 Nguồn local: [report checkpoint07](../../docs/archive/completed/reports/results/kaggle/project8_v04_12k_from_best50_20261008_151936/report.md), [args lịch sử](../../reports/archive/results/kaggle/project8_v04_12k_from_best50_20261008_151936/args.yaml), [class map v04](../../configs/data_v04.yaml), [plan chất lượng v05](../plan.md).
 

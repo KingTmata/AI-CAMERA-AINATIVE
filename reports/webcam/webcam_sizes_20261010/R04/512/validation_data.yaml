@@ -1,4 +1,4 @@
-path: C:/Users/aawm8/Downloads/BTL-AI-Camera-cd8/data/dataset/project8_v0.5_merged_20261008
+path: C:/Users/aawm8/Downloads/AI-CAMERA-AINATIVE/data/dataset/project8_v0.5_merged_20261008
 train: images/train
 val: images/val
 nc: 8

@@ -1,4 +1,4 @@
-# Checklist triển khai — BTL-AI-Camera-cd8
+# Checklist triển khai — AI-CAMERA-AINATIVE
 
 > **Bổ sung 12/10/2026:** các mục R0–R7 cuối file là kế hoạch mở rộng được đề xuất, **chưa triển khai**. Người dùng đã xác nhận cần tránh trùng đề tài nhận biết gian lận của nhóm độc lập. Chưa coi lựa chọn tối ưu YOLO theo tài nguyên là đã được người dùng chốt. T0–T10 và phần Kaggle 08/10 bên dưới giữ trạng thái lịch sử; chiến dịch checkpoint07 ngày 12/10 có [checklist riêng](experiments/kaggle_classroom_07_todo.md).
 

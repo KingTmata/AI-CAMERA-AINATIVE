@@ -3,7 +3,7 @@
 ## Yêu cầu của người dùng
 Trong cùng app, ảnh tĩnh được báo khoảng200ms lần đầu và dưới100ms những lần sau, nhưng webcam dưới1FPS và p95 khoảng3000ms. Người dùng muốn tận dụng CPU tốt hơn để xử lý webcam, xác định nghẽn ở inference, khóa/thread, camera hay Streamlit và sửa bằng số đo thực tế. Không dùng CPU100% làm tiêu chí thành công: ưu tiên FPS xử lý thực, độ trễ thấp, frame mới và UI vẫn điều khiển được.
 
-Repo: C:/Users/aawm8/Downloads/BTL-AI-Camera-cd8
+Repo: C:/Users/aawm8/Downloads/AI-CAMERA-AINATIVE
 Python: .venv/Scripts/python.exe
 Entrypoint: python -m streamlit run src/classroom_ai/interfaces/web/app.py
 URL phiên vừa bật: http://127.0.0.1:8501 (cần kiểm tra còn sống, không launch trùng).

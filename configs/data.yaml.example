@@ -1,5 +1,5 @@
 # Sao chép thành data.yaml và đổi path thành đường dẫn tuyệt đối của máy.
-path: C:/PATH/TO/BTL-AI-Camera-cd8/data/dataset
+path: C:/PATH/TO/AI-CAMERA-AINATIVE/data/dataset
 train: images/train
 val: images/val
 # Chỉ thêm test khi có tập test độc lập đã khóa.

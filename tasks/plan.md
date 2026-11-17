@@ -1,4 +1,4 @@
-# Mục tiêu và kế hoạch phát triển BTL-AI-Camera-cd8
+# Mục tiêu và kế hoạch phát triển AI-CAMERA-AINATIVE
 
 ## Mục tiêu và yêu cầu chính thức — 15/10/2026
 

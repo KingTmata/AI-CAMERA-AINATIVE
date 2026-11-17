@@ -22,13 +22,13 @@ Kiểm tra code trước push: Ruff đạt, 80 file đúng format. Pytest chưa 
 
 Để Codex trên máy mới nắm ngữ cảnh, mở đúng thư mục project và gửi: **“Đọc AGENTS.md, tasks/project_memory.md và mục chính thức trong tasks/plan.md trước. Tiếp đó đọc docs/guides/move_to_another_computer.md và reports/maintenance/restructure_20261015.md. Đây là bản chuyển máy không kèm dataset/môi trường; kiểm tra trạng thái rồi tiếp nối công việc, không tự train hoặc đổi mục tiêu đề tài.”** Các file này ghi mục tiêu, quyết định, cấu trúc, việc đã làm và giới hạn kiểm chứng. Không cần đọc lại toàn bộ lịch sử chat để lấy được ngữ cảnh dự án cốt lõi.
 
-1. Trên máy Windows mới, cài Git, Python 3.11 và FFmpeg/FFprobe. Giải nén dự án vào thư mục trống; ưu tiên giữ `C:\Users\aawm8\Downloads\BTL-AI-Camera-cd8` nếu khả thi để các tham chiếu lịch sử tiếp tục đúng.
+1. Trên máy Windows mới, cài Git, Python 3.11 và FFmpeg/FFprobe. Giải nén dự án vào thư mục trống; ưu tiên giữ `C:\Users\aawm8\Downloads\AI-CAMERA-AINATIVE` nếu khả thi để các tham chiếu lịch sử tiếp tục đúng.
 2. Clone repository rồi giải nén `project-local.zip` vào đúng thư mục clone, chấp nhận bản snapshot ghi đè file của clone. Khi không có mạng, clone từ bundle:
 
    ```powershell
-   git clone "E:\transfer_backup\repository.bundle" "C:\Users\aawm8\Downloads\BTL-AI-Camera-cd8"
-   cd "C:\Users\aawm8\Downloads\BTL-AI-Camera-cd8"
-   git remote set-url origin https://github.com/KingTmata/BTL-AI-Camera-cd8
+   git clone "E:\transfer_backup\repository.bundle" "C:\Users\aawm8\Downloads\AI-CAMERA-AINATIVE"
+   cd "C:\Users\aawm8\Downloads\AI-CAMERA-AINATIVE"
+   git remote set-url origin https://github.com/KingTmata/AI-CAMERA-AINATIVE
    ```
 
    Thay `E:` bằng ổ thực tế. Đừng giải nén ZIP thành một thư mục dự án lồng thêm bên trong.

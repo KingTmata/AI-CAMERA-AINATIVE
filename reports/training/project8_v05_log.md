@@ -480,7 +480,7 @@ Các lượt GPU còn lại tiếp tục trên Kaggle. Từ đây ghi kết qu�
 
 ## Checkpoint duy nhất được giữ — hiện tại R04
 
-- File: [BEST_Project8_v05.pt](C:/Users/aawm8/Downloads/BTL-AI-Camera-cd8/weights/campaign_20261010/BEST_Project8_v05.pt).
+- File: [BEST_Project8_v05.pt](C:/Users/aawm8/Downloads/AI-CAMERA-AINATIVE/weights/campaign_20261010/BEST_Project8_v05.pt).
 - Pipeline được chọn: **R04_three_views**; **80.426735% mAP50**, 56.884799% mAP50-95.
 - SHA256: `087eaca77696eb323464f4294fce43b877de430e0bb26efb55e18322a3c02758`. Bản copy giữ nguyên byte của epoch4 (`epoch3.pt`).
 - So sánh trên cùng 2.500val / 8.359boxes, CPU FP32, không dùng test.
@@ -491,7 +491,7 @@ R04 full metric ở cuối log. JSON R02 bên dưới giữ làm lịch sử l�
 ```json
 {
   "pipeline": "R02_flip",
-  "checkpoint": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\weights\\campaign_20261010\\BEST_Project8_v05.pt",
+  "checkpoint": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\weights\\campaign_20261010\\BEST_Project8_v05.pt",
   "checkpoint_sha256": "c0b19c81af77842a59a596a057548641ca920175600edd61dd6bac620afaa0c1",
   "mAP50": 0.794753964987905,
   "mAP50_95": 0.557374655074337,
@@ -549,7 +549,7 @@ R04 full metric ở cuối log. JSON R02 bên dưới giữ làm lịch sử l�
   ],
   "postprocessing": "explicit_flip_views_nms_06",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\reports\\campaign_20261010\\local_inference_20261009_180723\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\reports\\campaign_20261010\\local_inference_20261009_180723\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -595,7 +595,7 @@ R04 full metric ở cuối log. JSON R02 bên dưới giữ làm lịch sử l�
 
 ## Dọn artifact campaign
 
-Thư mục được dọn: C:\Users\aawm8\Downloads\BTL-AI-Camera-cd8\reports\campaign_20261010. Giữ checkpoint ở C:\Users\aawm8\Downloads\BTL-AI-Camera-cd8\weights\campaign_20261010\BEST_Project8_v05.pt và log này ở ngoài thư mục được xoá.
+Thư mục được dọn: C:\Users\aawm8\Downloads\AI-CAMERA-AINATIVE\reports\campaign_20261010. Giữ checkpoint ở C:\Users\aawm8\Downloads\AI-CAMERA-AINATIVE\weights\campaign_20261010\BEST_Project8_v05.pt và log này ở ngoài thư mục được xoá.
 
 | ZIP đã xoá | Bytes | SHA256 |
 |---|---:|---|
@@ -632,7 +632,7 @@ Dọn thành công: 304 file (23 file .pt, 15 ZIP), 637056874 bytes. Đã xoá l
   "csv_sha256": "82dfd7626cbb34d18db12784986d0652b1278d2a4095cc917a1cf79e9258b1f6",
   "selected_epoch": 4,
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -708,7 +708,7 @@ Dọn thành công: 304 file (23 file .pt, 15 ZIP), 637056874 bytes. Đã xoá l
   "postprocessing": "explicit_views_class_aware_nms_06",
   "extra_nms_iou": 0.6,
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -881,9 +881,9 @@ RED ban đầu: module confirmation_plan chưa có; GREEN:5 kiểm thử semanti
   "elapsed_seconds": 12.899,
   "command": ".venv\\Scripts\\python.exe -X utf8 -B -m unittest discover -s tests -v",
   "environment": {
-    "PYTHONPATH": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8",
-    "TEMP": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp",
-    "TMP": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp"
+    "PYTHONPATH": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE",
+    "TEMP": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp",
+    "TMP": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp"
   },
   "new_tests": [
     "test_baseline_reference_cannot_supply_a_missing_training_recipe",
@@ -927,7 +927,7 @@ RED ban đầu: module confirmation_plan chưa có; GREEN:5 kiểm thử semanti
   "postprocessing": "explicit_views_class_aware_nms_06",
   "extra_nms_iou": 0.6,
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -996,7 +996,7 @@ RED ban đầu: module confirmation_plan chưa có; GREEN:5 kiểm thử semanti
 {
   "status": "complete",
   "errors": {},
-  "kept_checkpoint": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\weights\\campaign_20261010\\BEST_Project8_v05.pt",
+  "kept_checkpoint": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\weights\\campaign_20261010\\BEST_Project8_v05.pt",
   "checkpoint_sha256": "087eaca77696eb323464f4294fce43b877de430e0bb26efb55e18322a3c02758"
 }
 ```
@@ -1039,9 +1039,9 @@ GREEN: 6 kiểm thử semantic của confirmation_plan và21 kiểm thử cũ đ
   "elapsed_seconds": 8.684,
   "command": ".venv\\Scripts\\python.exe -X utf8 -B -m unittest discover -s tests -v",
   "environment": {
-    "PYTHONPATH": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8",
-    "TEMP": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp",
-    "TMP": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp"
+    "PYTHONPATH": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE",
+    "TEMP": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp",
+    "TMP": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp"
   },
   "new_tests": [
     "test_fresh_nano_matches_small_pretrained_training_recipe",
@@ -1081,7 +1081,7 @@ GREEN: 6 kiểm thử semantic của confirmation_plan và21 kiểm thử cũ đ
     ]
   ],
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -1111,7 +1111,7 @@ GREEN: 6 kiểm thử semantic của confirmation_plan và21 kiểm thử cũ đ
 ```json
 {
   "status": "error",
-  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\notebooks\\kaggle\\project8_v05_local_TTA_nms_20261010.py\", line 103, in <module>\n    smoke_samples, captured = capture(smoke_yaml, 'smoke_capture', 3)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\notebooks\\kaggle\\project8_v05_local_TTA_nms_20261010.py\", line 78, in capture\n    metrics = model.val(validator=factory, project=str(output), name=label, exist_ok=False,\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.venv\\Lib\\site-packages\\ultralytics\\engine\\model.py\", line 641, in val\n    validator(model=self.model)\n  File \"C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.venv\\Lib\\site-packages\\torch\\utils\\_contextlib.py\", line 124, in decorate_context\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.venv\\Lib\\site-packages\\ultralytics\\engine\\validator.py\", line 271, in __call__\n    self.update_metrics(preds, batch)\n  File \"C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\kaggle_tools\\view_replay.py\", line 61, in update_metrics\n    raise ValueError('Raw capture batch order/count differs')\nValueError: Raw capture batch order/count differs\n"
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\notebooks\\kaggle\\project8_v05_local_TTA_nms_20261010.py\", line 103, in <module>\n    smoke_samples, captured = capture(smoke_yaml, 'smoke_capture', 3)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\notebooks\\kaggle\\project8_v05_local_TTA_nms_20261010.py\", line 78, in capture\n    metrics = model.val(validator=factory, project=str(output), name=label, exist_ok=False,\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.venv\\Lib\\site-packages\\ultralytics\\engine\\model.py\", line 641, in val\n    validator(model=self.model)\n  File \"C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.venv\\Lib\\site-packages\\torch\\utils\\_contextlib.py\", line 124, in decorate_context\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.venv\\Lib\\site-packages\\ultralytics\\engine\\validator.py\", line 271, in __call__\n    self.update_metrics(preds, batch)\n  File \"C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\kaggle_tools\\view_replay.py\", line 61, in update_metrics\n    raise ValueError('Raw capture batch order/count differs')\nValueError: Raw capture batch order/count differs\n"
 }
 ```
 
@@ -1138,7 +1138,7 @@ GREEN: 6 kiểm thử semantic của confirmation_plan và21 kiểm thử cũ đ
     ]
   ],
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -1361,7 +1361,7 @@ Driver R07_views sau bổ sung dọn CSV: SHA256 9e3c954e6c34753b508f350adea4d63
   "checkpoint_sha256": "087eaca77696eb323464f4294fce43b877de430e0bb26efb55e18322a3c02758",
   "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -1445,7 +1445,7 @@ Driver R07_views sau bổ sung dọn CSV: SHA256 9e3c954e6c34753b508f350adea4d63
   "checkpoint_sha256": "087eaca77696eb323464f4294fce43b877de430e0bb26efb55e18322a3c02758",
   "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -1529,7 +1529,7 @@ Driver R07_views sau bổ sung dọn CSV: SHA256 9e3c954e6c34753b508f350adea4d63
   "checkpoint_sha256": "087eaca77696eb323464f4294fce43b877de430e0bb26efb55e18322a3c02758",
   "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -1613,7 +1613,7 @@ Driver R07_views sau bổ sung dọn CSV: SHA256 9e3c954e6c34753b508f350adea4d63
   "checkpoint_sha256": "087eaca77696eb323464f4294fce43b877de430e0bb26efb55e18322a3c02758",
   "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -1697,7 +1697,7 @@ Driver R07_views sau bổ sung dọn CSV: SHA256 9e3c954e6c34753b508f350adea4d63
   "checkpoint_sha256": "087eaca77696eb323464f4294fce43b877de430e0bb26efb55e18322a3c02758",
   "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -1781,7 +1781,7 @@ Driver R07_views sau bổ sung dọn CSV: SHA256 9e3c954e6c34753b508f350adea4d63
   "checkpoint_sha256": "087eaca77696eb323464f4294fce43b877de430e0bb26efb55e18322a3c02758",
   "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -1868,7 +1868,7 @@ Driver R07_views sau bổ sung dọn CSV: SHA256 9e3c954e6c34753b508f350adea4d63
     "checkpoint_sha256": "087eaca77696eb323464f4294fce43b877de430e0bb26efb55e18322a3c02758",
     "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
     "protocol": {
-      "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
+      "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
       "split": "val",
       "imgsz": 1280,
       "batch": 8,
@@ -1926,7 +1926,7 @@ Driver R07_views sau bổ sung dọn CSV: SHA256 9e3c954e6c34753b508f350adea4d63
   "csv_sha256": "7d13a9ce9bc19fd3414c89033ddaf3c553805e3237f3b0fcbe623f93dbf7ad6e",
   "selected_epoch": 4,
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -2189,7 +2189,7 @@ Bổ sung code seed43/44, lịch dài, nano pretrained mới đối chứng smal
   "postprocessing": "explicit_views_class_aware_nms_06",
   "extra_nms_iou": 0.6,
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -2342,9 +2342,9 @@ GPU timing ms/image: native pre3.0988322512064768/infer7.9524908183972/post0.157
         "roboflow_mobile_phone_v1": 34
       },
       "train_identity_sha256": "31c4f6f61c5971bc96b287b1f1b97362e5664e4b5ab489ec09d0b774b5abeec5",
-      "train_list": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\group_controls_20261009_203952\\group_disjoint_train.txt",
+      "train_list": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\group_controls_20261009_203952\\group_disjoint_train.txt",
       "train_list_sha256": "4cfca1c3be3da601c93ac4cb33953e65fe507cb2c5f9b5eb685cd897ceb90e3b",
-      "data_yaml": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\group_controls_20261009_203952\\group_disjoint.yaml",
+      "data_yaml": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\group_controls_20261009_203952\\group_disjoint.yaml",
       "data_yaml_sha256": "b5c1d468541936904854ab387bf0cddefadb743092dd8e80352842e7c3e3e0f8"
     },
     "random_removal": {
@@ -2380,9 +2380,9 @@ GPU timing ms/image: native pre3.0988322512064768/infer7.9524908183972/post0.157
         "roboflow_mobile_phone_v1": 33
       },
       "train_identity_sha256": "9a05818ab8d2583a3a8abd20d3a6d01bd4eefca5ca8df2b48c6f2535bdfe87e0",
-      "train_list": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\group_controls_20261009_203952\\random_removal_train.txt",
+      "train_list": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\group_controls_20261009_203952\\random_removal_train.txt",
       "train_list_sha256": "d75750f9a346d40d15000644a789207bf5ab96c9144d410763079fe3a781d322",
-      "data_yaml": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\group_controls_20261009_203952\\random_removal.yaml",
+      "data_yaml": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\group_controls_20261009_203952\\random_removal.yaml",
       "data_yaml_sha256": "fbe0ea8585e48eb462bf48f30c5ff9c9b07ab672815c5e6dd76562b7a2403b7f"
     }
   }
@@ -2470,7 +2470,7 @@ Speed ms/image native pre3.088620777604956/infer8.030844695997075/post0.17515516
   "postprocessing": "explicit_views_class_aware_nms_06",
   "extra_nms_iou": 0.6,
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -2538,7 +2538,7 @@ Speed ms/image native pre3.088620777604956/infer8.030844695997075/post0.17515516
 {
   "status": "complete",
   "errors": {},
-  "kept_checkpoint": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\weights\\campaign_20261010\\BEST_Project8_v05.pt",
+  "kept_checkpoint": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\weights\\campaign_20261010\\BEST_Project8_v05.pt",
   "checkpoint_sha256": "087eaca77696eb323464f4294fce43b877de430e0bb26efb55e18322a3c02758"
 }
 ```
@@ -2568,7 +2568,7 @@ R07_views exit0 sau hai lượt đủ2500/8359GT: R07_flip80,161299%/56,584631%;
     ]
   ],
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -2733,7 +2733,7 @@ Xác minh lượt hiện hành: R07 TTA/NMS đã kiểm lại5000payload val, re
   "checkpoint_sha256": "ecb6329999b05fe6399cd8d303fb4c36ade4b07c263bd299abb88e28d34d6785",
   "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -2817,7 +2817,7 @@ Xác minh lượt hiện hành: R07 TTA/NMS đã kiểm lại5000payload val, re
   "checkpoint_sha256": "ecb6329999b05fe6399cd8d303fb4c36ade4b07c263bd299abb88e28d34d6785",
   "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -2901,7 +2901,7 @@ Xác minh lượt hiện hành: R07 TTA/NMS đã kiểm lại5000payload val, re
   "checkpoint_sha256": "ecb6329999b05fe6399cd8d303fb4c36ade4b07c263bd299abb88e28d34d6785",
   "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -2985,7 +2985,7 @@ Xác minh lượt hiện hành: R07 TTA/NMS đã kiểm lại5000payload val, re
   "checkpoint_sha256": "ecb6329999b05fe6399cd8d303fb4c36ade4b07c263bd299abb88e28d34d6785",
   "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -3069,7 +3069,7 @@ Xác minh lượt hiện hành: R07 TTA/NMS đã kiểm lại5000payload val, re
   "checkpoint_sha256": "ecb6329999b05fe6399cd8d303fb4c36ade4b07c263bd299abb88e28d34d6785",
   "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -3153,7 +3153,7 @@ Xác minh lượt hiện hành: R07 TTA/NMS đã kiểm lại5000payload val, re
   "checkpoint_sha256": "ecb6329999b05fe6399cd8d303fb4c36ade4b07c263bd299abb88e28d34d6785",
   "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -3240,7 +3240,7 @@ Xác minh lượt hiện hành: R07 TTA/NMS đã kiểm lại5000payload val, re
     "checkpoint_sha256": "ecb6329999b05fe6399cd8d303fb4c36ade4b07c263bd299abb88e28d34d6785",
     "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
     "protocol": {
-      "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
+      "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R07_views_20261009_202641\\validation_data.yaml",
       "split": "val",
       "imgsz": 1280,
       "batch": 8,
@@ -3474,7 +3474,7 @@ Real-image serialization probe cleanup: {"generated_smoke_label_cache_removed": 
   "component_checkpoint_sha256": "087eaca77696eb323464f4294fce43b877de430e0bb26efb55e18322a3c02758",
   "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -3756,7 +3756,7 @@ R11 không vượt R07 trong protocol GPU chung và không thay best CPU R04. R1
   "component_checkpoint_sha256": "087eaca77696eb323464f4294fce43b877de430e0bb26efb55e18322a3c02758",
   "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,
@@ -4041,7 +4041,7 @@ Smoke cleanup: {"scope": "multimodel raw integration", "generated_smoke_cache_re
   "checkpoint_sha256": "087eaca77696eb323464f4294fce43b877de430e0bb26efb55e18322a3c02758",
   "manifest_sha256": "22a0140ab5e4d454d7e0c46ab24145c6d52d8b949db67ab8142fdd3bb8bb9ccd",
   "protocol": {
-    "data": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
+    "data": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\.temp\\R04_views_20261009_191354\\validation_data.yaml",
     "split": "val",
     "imgsz": 1280,
     "batch": 8,

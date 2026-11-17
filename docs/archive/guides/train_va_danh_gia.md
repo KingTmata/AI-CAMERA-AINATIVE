@@ -68,14 +68,14 @@ assert torch.cuda.is_available(), "Phiên này chưa có GPU; kiểm runtime tr�
 print(torch.cuda.get_device_name(0))
 ```
 
-Ví dụ nếu mã đã ở `/content/BTL-AI-Camera-cd8` và dataset ở `/content/classroom_v1`:
+Ví dụ nếu mã đã ở `/content/AI-CAMERA-AINATIVE` và dataset ở `/content/classroom_v1`:
 
 ```python
 from pathlib import Path
 import yaml
 from google.colab import drive
 drive.mount('/content/drive')
-%cd /content/BTL-AI-Camera-cd8
+%cd /content/AI-CAMERA-AINATIVE
 
 data_cfg = yaml.safe_load(Path('configs/data.yaml.example').read_text())
 data_cfg['path'] = '/content/classroom_v1'

@@ -18,7 +18,7 @@ Ví dụ: bấm “Phân tích ảnh” 100 lần chỉ chạy inference, không
 ## 2. Cây thư mục theo trách nhiệm
 
 ```text
-BTL-AI-Camera-cd8/
+AI-CAMERA-AINATIVE/
 ├── src/                              CODE CỦA NHÓM
 │   ├── inference/
 │   │   ├── detector.py               Bộ nhận dạng cho web, mapping/crop/nhãn

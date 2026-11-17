@@ -1,5 +1,5 @@
 {
-  "directory": "C:\\Users\\aawm8\\Downloads\\BTL-AI-Camera-cd8\\runs\\video_tracking_playback_20261015\\20261015_232001_4bcb8a5f4d",
+  "directory": "C:\\Users\\aawm8\\Downloads\\AI-CAMERA-AINATIVE\\runs\\video_tracking_playback_20261015\\20261015_232001_4bcb8a5f4d",
   "source": ".temp\\video_tests\\synthetic_3min_30fps.mp4",
   "scope": "Synthetic detector, real tracker/render/encode/HighGUI. Not YOLO inference or classroom quality.",
   "report": {

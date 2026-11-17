@@ -131,7 +131,7 @@ Trang web tĩnh giới thiệu chi tiết về đề tài, kiến trúc pipeline
 ## 5. Cấu trúc thư mục chính
 
 ```text
-BTL-AI-Camera-cd8/
+AI-CAMERA-AINATIVE/
 ├── configs/                  # Cấu hình định nghĩa hành vi (action_rubric.yaml)
 ├── data/
 │   └── videos/               # Video thực tế lớp học (Đô, Thành, Khánh, Sơn, Phong)
