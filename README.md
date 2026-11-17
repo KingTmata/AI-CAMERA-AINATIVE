@@ -1,18 +1,33 @@
 # HƯỚNG DẪN CÀI ĐẶT VÀ KHỞI CHẠY DỰ ÁN
 
 > **Đề tài:** Nghiên cứu xây dựng hệ thống nhận dạng và đánh giá tính tương tác của sinh viên trong quá trình học tập trên lớp với hệ sinh thái AI-Native  
-> **Thư mục làm việc:** `C:\BTL-AI-Camera-cd8`
+> **Mục tiêu chính thức:** Xem tại [tasks/plan.md](tasks/plan.md#mục-tiêu-và-yêu-cầu-chính-thức--15102026)
+
+---
+
+## ⚡ Bảng lệnh khởi chạy nhanh (Quick Start)
+
+| Thành phần | Lệnh thực thi / File khởi chạy | Địa chỉ truy cập / Cổng | Ghi chú |
+| :--- | :--- | :--- | :--- |
+| **1. Cài đặt môi trường** | `.\setup_demo.cmd` | N/A | Tự động tạo `.venv`, cài đặt PyTorch, Ultralytics và tải weights ban đầu |
+| **2. Giao diện Web chính (Khuyên dùng)** | `.\run_demo.cmd` | **[http://127.0.0.1:8090](http://127.0.0.1:8090)** | Giao diện AI nhận diện học sinh, vẽ khung xương Pose, HUD và bảng đếm tương tác |
+| **3. Backend Đánh giá Sôi nổi** | `.\run_engagement.cmd` | **[http://127.0.0.1:8000](http://127.0.0.1:8000)** | API & WebSocket phân tích tương tác, lọc ngoại lệ vươn vai, tính điểm trượt |
+| **4. Trang Thuyết minh Đề tài** | `.\run_project_site.cmd` | **[http://127.0.0.1:8765](http://127.0.0.1:8765)** | Thuyết minh tổng quan đề tài, sơ đồ kiến trúc hệ thống và luồng dữ liệu |
+| **5. Phân tích Video qua Terminal (TUI)** | `.\run_video.cmd --tui` | Terminal Console | Xử lý video trực tiếp qua giao diện dòng lệnh không cần trình duyệt |
+
+> [!TIP]
+> **Khuyến nghị vận hành chuẩn:** Để có trải nghiệm đầy đủ nhất, hãy bật đồng thời cả **`run_demo.cmd`** (cổng 8090) và **`run_engagement.cmd`** (cổng 8000). Giao diện web 8090 sẽ tự động kết nối qua CORS tới backend 8000 để cập nhật đồng bộ các chỉ số sôi nổi theo thời gian thực.
 
 ---
 
 ## 1. Yêu cầu hệ thống
 
-* **Hệ điều hành:** Windows 10 / Windows 11 (64-bit)
+* **Hệ điều hành:** Windows 10 / Windows 11 (64-bit) (Hỗ trợ cả Linux/macOS qua lệnh Python tương đương)
 * **Phiên bản Python:** **Python 3.11** (khuyến nghị tải từ [python.org](https://www.python.org/downloads/release/python-3119/) và tích chọn *Add Python to PATH* khi cài đặt)
 * **Phần cứng:**
   * CPU: Intel Core i5 / AMD Ryzen 5 trở lên
   * RAM: Tối thiểu 8 GB
-  * GPU (không bắt buộc): Hỗ trợ tăng tốc bằng NVIDIA CUDA hoặc Intel iGPU (OpenVINO); nếu không có GPU hệ thống vẫn chạy ổn định trên CPU.
+  * GPU (không bắt buộc): Tự động phát hiện và hỗ trợ NVIDIA CUDA hoặc Intel iGPU (OpenVINO); nếu không có GPU hệ thống vẫn chạy ổn định trên CPU.
 
 ---
 
@@ -20,13 +35,17 @@
 
 Nếu dự án chưa có môi trường ảo `.venv` hoặc vừa chuyển sang máy mới:
 
-1. Mở thư mục dự án `C:\NCKH-AI-camera`.
+1. Mở thư mục gốc của dự án.
 2. Nhấp đúp chuột vào file:
    ```text
    setup_demo.cmd
    ```
-   *(Hoặc mở PowerShell tại thư mục dự án và gõ: `.\setup_demo.cmd`)*.
-3. Chờ script tự động tạo môi trường ảo `.venv`, cài đặt PyTorch CPU/GPU, torchvision và liên kết mã nguồn dự án. Khi hoàn tất, cửa sổ sẽ hiển thị thông báo `Setup complete`.
+   *(Hoặc mở PowerShell / Command Prompt tại thư mục dự án và gõ: `.\setup_demo.cmd`)*.
+3. Chờ script tự động:
+   * Tạo môi trường ảo `.venv` với Python 3.11.
+   * Cài đặt PyTorch CPU/GPU, torchvision và các thư viện cần thiết (`ultralytics`, `fastapi`, `uvicorn`, `opencv-python`, `lap`, `av`).
+   * Tải các file trọng số AI ban đầu vào thư mục `weights/` (`yolo26n.pt`, `yolo26n-pose.pt`).
+4. Khi hoàn tất, cửa sổ sẽ hiển thị thông báo `Setup complete. Open run_demo.cmd or run_video.cmd.`
 
 ---
 
