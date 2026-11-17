@@ -20,7 +20,7 @@
 
 Nếu dự án chưa có môi trường ảo `.venv` hoặc vừa chuyển sang máy mới:
 
-1. Mở thư mục dự án `C:\BTL-AI-Camera-cd8`.
+1. Mở thư mục dự án `C:\NCKH-AI-camera`.
 2. Nhấp đúp chuột vào file:
    ```text
    setup_demo.cmd
